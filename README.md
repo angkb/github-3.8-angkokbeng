@@ -1,16 +1,18 @@
 # github-3.8-angkokbeng
-Challenges
-Problems
-Focus
-Strategies
+
 1.   	Need for Testing and Monitoring
+
+## Problems
 ·         More services to monitor.
 ·         Developed using different programming languages.
 ·         Interdependencies between services can all have cascading downstream effects (any issue in one area can lead to a problem in another microservice elsewhere).
+## Focus
 Reliability and performance of the system through
 comprehensive testing,
 monitoring, and
 debugging practices.
+
+## Strategies
 1. Implement Comprehensive Testing Strategies
 2. Continuous Monitoring and Observability
 3. Automated Testing

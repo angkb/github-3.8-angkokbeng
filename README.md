@@ -1,30 +1,44 @@
 # github-3.8-angkokbeng
 
-1.   	Need for Testing and Monitoring
+## Challenges
+
+Need for Testing and Monitoring
 
 ## Problems
+
 ·         More services to monitor.
 ·         Developed using different programming languages.
 ·         Interdependencies between services can all have cascading downstream effects (any issue in one area can lead to a problem in another microservice elsewhere).
+
 ## Focus
+
 Reliability and performance of the system through
 comprehensive testing,
 monitoring, and
 debugging practices.
 
 ## Strategies
+
 1. Implement Comprehensive Testing Strategies
 2. Continuous Monitoring and Observability
 3. Automated Testing
 4. Chaos Engineering
 5. Performance Testing
+## Challenges
+
 2.   	Debugging Issues
+
+## Problems
 ·         Each service has its own set of logs resulting in large distributed unstructured data to debug.
 ·         Work backward through status codes and vague error messages generated across the network.
+
+## Strategies
 1. Centralized Logging and Distributed Tracing
 2. Debugging Tools and Techniques
 3. Code Reviews and Pair Programming
 4. Error Handling and Logging
+   
+## Challenges   
 3.   	Compromised Security
 ·         Data is distributed in a microservices-based framework.
 ·         Maintaining the confidentiality and integrity of user data is difficult.
@@ -40,6 +54,8 @@ Security and operational aspects of the system
 4. Regular Security Audits and Penetration Testing
 5. Secure protocol 
 HTTPS, TLS, SSH
+
+## Challenges
 4.   	Increased Operational Complexity
 ·         Require serious effort to ensure that the whole application is resilient, and failovers can be avoided.
 ·         Requires sophisticated tooling for automated provisioning in a highly secure and resilient manner.
@@ -48,11 +64,17 @@ HTTPS, TLS, SSH
 2. Infrastructure as Code (IaC)
 3. Monitoring and Alerting Systems
 4. Incident Management Procedures
-5.   	Inter-Service Communication Breakdown
+
+## Challenges
+6.   	Inter-Service Communication Breakdown
+
+## Problems
 ·         Microservices that rely on each other will need to communicate, which is done using well-defined APIs without sharing the same technology stacks, libraries, or frameworks.
 ·         Poor configuration can easily lead to increased latency.
 ·         Managing communication between microservices can be hard without using automation and advanced methodologies such as Agile.
 ·         Production would require some form of service mesh capabilities to scale.
+
+## Focus
 Managing communication and network-related challenges within a distributed system
 1. Implement Robust Communication Protocols and Standards
 2. Circuit Breaker Patterns
